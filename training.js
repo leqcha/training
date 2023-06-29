@@ -1,3 +1,4 @@
+// create array by incrementation
 let monTableau = [];
 console.log(monTableau);
 monTableau.shift();
