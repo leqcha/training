@@ -2,16 +2,9 @@
 
 // tableau qui stocke 4 entiers
 let myArray = [];
-let newNote = [];
 let sum = 0;
 
-// function qui retourne un entier aléatoire
-function randomNumberparams() {
-    let number = Math.floor(Math.random() * 20);
-    return number;
-}
-
-//On envoie 4 nombres dans ce tableau
+//On envoie 4 nombres aléatoires dans le tableau
 for (let i = 0; i < 4; i++) {
     myArray.push(Math.floor(Math.random() * 20));
 }
