@@ -17,5 +17,4 @@ function calculMoyenne(tableau) {
     return moyenne;
 }
 
-console.log(calculMoyenne(array1));
 console.log(resultat);
