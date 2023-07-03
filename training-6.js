@@ -4,13 +4,12 @@ let nombre = 5;
 function multiplication(tableau, nombre) {
     for (let i = 0; i < tableau.length; i++) {
         if (tableau[i] > 20) {
-            resultat = tableau[i] * nombre;
-            resultat += resultat;
-            console.log(resultat);
+            resultat = resultat + tableau[i] * nombre;
         }
     }
     return resultat;
 }
 
 let monTableau = [4, 27, 32, 4];
-console.log(multiplication(monTableau, nombre));
+let resultatFinal = multiplication(monTableau, nombre);
+console.log(resultatFinal);
